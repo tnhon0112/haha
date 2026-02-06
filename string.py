@@ -1,5 +1,6 @@
-price = 49
+class myclass():
+    def __len__(self):
+        return 0
+myobj = myclass()
 
-txt = f"the price is {price:.2f} dollars"
-
-print(txt)
+print(bool(myobj))
